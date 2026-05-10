@@ -13,6 +13,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           owner: CJackHwang      # 上游源仓库的所有者
-          base: dev             # 你自己仓库的目标分支（接收同步）
-          head: dev             # 上游仓库的分支（同步来源）
+          base: main             # 你自己仓库的目标分支（接收同步）
+          head: main             # 上游仓库的分支（同步来源）
           merge_method: merge
